@@ -6,6 +6,7 @@ import java.util.Random;
 
 public class ParcVehicule {
 
+    // Tu n'as pas instancié de Scooter ?
     private static final int nbVehicules = 7; // 4 voitures et 3 scooters
     private Vehicule[] vehicules; // tableau des véhicules
 

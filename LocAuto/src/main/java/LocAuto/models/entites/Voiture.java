@@ -4,6 +4,8 @@ import LocAuto.exceptions.PanneEssenceException;
 
 public class Voiture extends VehiculeAMoteur {
 
+    // TODO A revoir la méthode utiliser() qui doit renvoyer une Exception s'il n'y
+    // a pas suffisemment de carburant.
     public Voiture(String marque, String modele, float carburantInitial) {
         super(marque, modele, carburantInitial);
     }
